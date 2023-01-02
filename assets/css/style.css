@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #071843;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, #02447E, #00A3FF);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    margin: 0 20px;
+    padding: 20px 50px;
+    width: 500px;
+    background-image: linear-gradient(to top right, #02447E, #00A3FF, #BDE7FF);
+    box-shadow: -4px -4px 10px rgba(0, 0, 0, .5), 4px 4px 10px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main h1{
+    text-align: center;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#conteudo label{
+    font-size: 1.1rem;
+}
+
+#conteudo input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#conteudo button{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    background-color: #BDE7FF;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado{
+    font-size: 1.1rem;
+    color: #BDE7FF;
+    background-color: #071843;
+    padding: 10px;
+    border-radius: 5px;
+}
